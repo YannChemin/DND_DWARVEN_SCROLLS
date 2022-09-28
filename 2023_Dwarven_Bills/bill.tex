@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This template requires the invoice.cls file to be in the same directory as 
+% the .tex file. The invoice.cls file provides the style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT CONFIGURATION
+%----------------------------------------------------------------------------------------
+
+\documentclass{bill} % Use the custom invoice class (invoice.cls)
+
+% Runic Fonts
+\usepackage{runic}
+%\renewcommand{\familydefault}{fut}
+
+\usepackage{ocr}
+\def \tab {\hspace*{3ex}} % Define \tab to create some horizontal white space
+\setlength{\parskip}{0.4em}
+
+\usepackage{datenumber}
+
+\begin{document}
+
+\setdatetoday
+\addtocounter{datenumber}{1}
+\setdatebynumber{\thedatenumber}
+
+%----------------------------------------------------------------------------------------
+%	HEADING SECTION
+%----------------------------------------------------------------------------------------
+
+{\Large\bf \textfut{AORGIN THE BRAVE AND MERRY MINERS}}
+\smallskip
+\hrule % Horizontal line
+
+\textfut{AXE AND HAMMER GUILD}\\
+\textfut{URKILA}\\
+\textfut{ARKEN MOUNTAIN}
+\\ \\
+{\bf \textfut{TO:}} \hfill {\bf \textfut{DATE:}} \\
+\tab \textfut{GUILD MASTER ANOXAR} \hfill {\bf \textfut{AX SUMMERDAY OF DURIN}}\\
+\tab \textfut{GUILD HUB TWELVE}\\
+\tab \textfut{URKILA}\\
+\tab \textfut{ARKEN MOUNTAIN}\\
+%\tab  {\scriptsize\ocr{VAT: BE0474817275}}\\
+\begin{center}{\bf \textfut{BILL FOR PROVIDING RARE RESOURCES}}\end{center}
+\bigskip
+\bigskip
+
+%----------------------------------------------------------------------------------------
+%	TABLE OF EXPENSES
+%----------------------------------------------------------------------------------------
+
+\begin{invoiceTable}
+
+\dayrow{\textfut{SCOUT}   }{1}{5500}
+\dayrow{\textfut{BERSERKER}   }{2}{2200}
+
+%------------------------------------------------
+%
+\subtotal % Prints a subtotal, can be used multiple times
+%
+%%------------------------------------------------
+%
+\feetype{\textfut{APPROPRIATING RARE COMMODITY}} % Fee category description
+\dayrow{\textfut{GUILDED ACROBAT}   }{1}{7000}
+
+\feerow{\textfut{TAX}}{12.3} % A flat fee service, note there is no hourly rate for this
+
+\end{invoiceTable}
+
+\begin{tabular}{@{}p{.4\textwidth}@{}p{.15\textwidth}@{}p{.45\textwidth}@{}}
+\textfut{SINCERELY YOURS} & {\scriptsize \textfut{BANK NAME}:} & {\scriptsize\ocr{\textfut{DWARVEN BANK OF ARKEN}}}\\
+\textfut{A.T.B.A.M.M.} & {\scriptsize \textfut{ACCOUNT HOLDER:} } & {\scriptsize\ocr{\textfut{SGR. AORGIN THE BRAVE}}}\\
+& {\scriptsize \textfut{ACCOUNT NO:}} & {\scriptsize\ocr{\textfut{DBA Y\Fthorn\Fng}}}\\
+\begin{wrapfigure}{R}{8cm}\includegraphics[scale=0.3]{e-signature}\end{wrapfigure}&\\
+\end{tabular}
+%----------------------------------------------------------------------------------------
+
+\end{document}
