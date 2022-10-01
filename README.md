@@ -20,4 +20,4 @@ It is actually a real publication of mine summarizing what is known as of today 
 
 ## An Official Letter
 
-![An Official Letter](2023_Dwarven_OfficiaLetter/formal_letter_4.png "An Official Letter")
+![An Official Letter](2023_Dwarven_OfficialLetter/formal_letter_4.png "An Official Letter")
