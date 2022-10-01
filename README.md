@@ -17,3 +17,7 @@ The signature is a screenshot of \textfut{AORGIN} in the pdf, processed in GIMP:
 It is actually a real publication of mine summarizing what is known as of today in Astronomy, so it is certainly a very arcane book for a medieval-fantasy setting... It is 8 pages, all in runic characters, with figures, references, etc.
 
 ![A Dwarven AstroBook](2023_Dwarven_AstroBook/IntechOpen-Book_p1.png "A Dwarven AstroBook")
+
+## An Official Letter
+
+![An Official Letter](2023_Dwarven_OfficiaLetter/formal_letter_4.png "An Official Letter")
