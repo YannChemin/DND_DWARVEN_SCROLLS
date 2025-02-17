@@ -1,0 +1,11 @@
+mktexpk --mfmode / --bdpi 600 --mag 2+450/600 --dpi 1650 tngani
+mktexpk --mfmode / --bdpi 600 --mag 2+450/600 --dpi 1650 tngani
+mktexpk --mfmode / --bdpi 600 --mag 2+450/600 --dpi 1650 tngani
+mktexpk --mfmode ljfour --bdpi 8000 --mag 2+6000/(2*4000) --dpi 22000 tngani
+mktexpk --mfmode ljfour --bdpi 8000 --mag 2+6000/(2*4000) --dpi 22000 tnganai
+mktexpk --mfmode / --bdpi 600 --mag 1+420/600 --dpi 1020 Parmaite
+mktexpk --mfmode / --bdpi 600 --mag 1+420/600 --dpi 1020 Parmaite
+mktexpk --mfmode ljfour --bdpi 8000 --mag 1+5600/(2*4000) --dpi 13600 Parmaite
+mktexpk --mfmode / --bdpi 600 --mag 1+420/600 --dpi 1020 Parmaite
+mktexpk --mfmode / --bdpi 600 --mag 1+60/600 --dpi 660 tngan
+mktexpk --mfmode ljfour --bdpi 8000 --mag 1+800/(2*4000) --dpi 8800 tngan
