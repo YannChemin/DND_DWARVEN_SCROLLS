@@ -1,0 +1,101 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Professional Formal Letter
+% LaTeX Template
+% Version 2.0 (12/2/17)
+%
+% This template originates from:
+% http://www.LaTeXTemplates.com
+%
+% Authors:
+% Brian Moses
+% Vel (vel@LaTeXTemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[12pt, a4paper]{letter} % Set the font size (10pt, 11pt and 12pt) and paper size (letterpaper, a4paper, etc)
+\input{structure.tex} % Include the file that specifies the document structure
+
+%\longindentation=0pt % Un-commenting this line will push the closing "Sincerely," and date to the left of the page
+
+\usepackage{runic}
+\usepackage{savesym}
+\savesymbol{swdefault}
+\usepackage{allrunes}
+\restoresymbol{AR}{swdefault}
+
+%----------------------------------------------------------------------------------------
+%	YOUR INFORMATION
+%----------------------------------------------------------------------------------------
+
+\Who{\textfut{AORGIN THE BRAWE}} % Your name
+
+\Title{} % Your title, leave blank for no title
+
+\authordetails{
+	\textfut{AXE AND HAMMER GUILD}\\
+	\textfut{URKILA}\\
+	\textfut{ARKEN MOUNTAIN}
+}
+
+%----------------------------------------------------------------------------------------
+%	HEADER CONTENTS
+%----------------------------------------------------------------------------------------
+
+\logo{aorginthebrave} 
+\headerlineone{ } % Top header line, leave blank if you only want the bottom line
+
+\headerlinetwo{ } % Bottom header line
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	TO ADDRESS
+%----------------------------------------------------------------------------------------
+
+\begin{letter}{
+	\textfut{DWARWEN GUILD MASTERS}\\
+	\textfut{EWERYWHERE}\\
+	%\textfut{}\\
+	%\textfut{}\\
+}
+
+%----------------------------------------------------------------------------------------
+%	LETTER CONTENT
+%----------------------------------------------------------------------------------------
+
+\opening{\textfut{DWARWEN GUILD MASTERS}}
+\vspace{0.9cm}\\
+\textfut{WARNING TO ADWENTURERS TRAWELLING WITH KORRIC THE DWARWEN SAWIOUR}
+
+\noindent\textarl{WE HAWE BEEN INTERCEPTING MESSAGES FROM OGRES COMMANDERS TO LIZARDMEN TROOPS}
+
+\noindent\textarl{A WERY LARGE AWARD HAS BEEN DISPATCHED TO BRING YOUR HEADS TO THEM}
+
+\noindent\textarl{BEWARE FOR YOUR LIFE, EWERY GOBLIN, LIZARDMAN, HOBGOBLIN AND OTHER FOES ARE HUNTING YOU !}
+
+\closing{\textarl{MAY THE GODS OF THE HOLY FORGE BE WITH YOU},}
+
+%----------------------------------------------------------------------------------------
+%	OPTIONAL FOOTNOTE
+%----------------------------------------------------------------------------------------
+
+% Uncomment the 4 lines below to print a footnote with custom text
+%\def\thefootnote{}
+%\def\footnoterule{\hrule}
+%\footnotetext{\hspace*{\fill}{\footnotesize\em Footnote text}}
+%\def\thefootnote{\arabic{footnote}}
+
+%----------------------------------------------------------------------------------------
+
+\end{letter}
+
+\end{document}
